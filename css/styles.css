@@ -154,3 +154,14 @@ section.locations {
 }
 
 /* Footer */
+footer .contact-banner {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.copyright {
+    text-align: left;
+    margin: 20px;
+}
