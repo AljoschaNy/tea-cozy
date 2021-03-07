@@ -1,0 +1,40 @@
+/* Universal Styles */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 0.9rem;
+}
+
+p,
+figcaption {
+    font-size: 1.3rem;
+}
+
+/* Main Navigation Bar */
+
+/* Mission Section */
+
+/* Featured Teas Section */
+
+/* Locations Section */
+
+/* Footer */
