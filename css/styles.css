@@ -42,6 +42,10 @@ a:visited {
     color: seashell;
 }
 
+figure {
+    margin: 0.5rem;
+}
+
 /* for the fixed header */
 .space {
     height: 69px;
@@ -100,6 +104,26 @@ section.mission {
 }
 
 /* Featured Teas Section */
+section.featured-teas {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.type-of-teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.featured-teas .tea {
+    margin: 0;
+    width: 300px;
+}
+.featured-teas img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
 
 /* Locations Section */
 
