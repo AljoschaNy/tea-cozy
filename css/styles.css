@@ -6,6 +6,7 @@ html {
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    box-sizing: border-box;
 }
 
 h2 {
@@ -29,7 +30,49 @@ figcaption {
     font-size: 1.3rem;
 }
 
+a:visited {
+    color: seashell;
+}
+
+/* for the fixed header */
+.space {
+    height: 69px;
+}
+
 /* Main Navigation Bar */
+header {
+    height: 69px;
+    width: 100%;
+    padding: 0 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+
+}
+
+header nav {
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+    color: white;
+}
+
+
+/* Main Section */
 
 /* Mission Section */
 
