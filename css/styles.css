@@ -18,11 +18,11 @@ h5 {
 }
 
 h2 {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 h4 {
@@ -35,7 +35,7 @@ h5 {
 
 p,
 figcaption {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 a:visited {
@@ -84,13 +84,15 @@ header nav li {
 
 
 /* Main Section */
+main {
+    width: 1200px;    
+    margin: 0 auto;
+}
 
 /* Mission Section */
 section.mission {
     background-color: blue;
-    width: 1200px;
     height: 700px;
-    margin: 0 auto;
     background-image: url("../images/img-mission-background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,5 +128,29 @@ section.featured-teas {
 }
 
 /* Locations Section */
+section.locations {
+    background-image: url("../images/img-locations-background.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.locations h2 {
+    padding: 75px 0 15px 0;
+}
+
+.location-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.location-list .location {
+    background-color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    opacity: 1;
+}
 
 /* Footer */
